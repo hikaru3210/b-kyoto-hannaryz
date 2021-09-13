@@ -14,11 +14,11 @@ const app = Vue.createApp({
     return {
       /* 解答
       *  ex. 問題2-3を追加する場合はstage2の配列に解答を追加します。
-      *    q3: 'おおお',
+      *    q3: 'key',
       */
       correctAnswer: {
         stage1: {
-          q1: 'あああ',
+          q1: 'key',
         },
         stage2: {
           q1: 'いいい',
@@ -100,7 +100,7 @@ app.component('answer-input', {
     return {
       /* 送信ボタン上下に表示されるメッセージ */
       okMessage: '正解！',
-      ngMessage: 'そのキーワードは違うようだぞ！？',
+      ngMessage: 'そのキーワードは違うようだ！',
       message: '',
       inputAnswer: '',
     }
