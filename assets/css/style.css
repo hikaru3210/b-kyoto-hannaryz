@@ -78,7 +78,7 @@ button {
   display: block;
   border: none;
   margin: 0 auto;
-  background-color: #006837;
+  background-color: #B46000;
   color: #fff;
   width: 287px;
   height: 55px;
@@ -238,7 +238,7 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: #39b54a;
+  background-color: #B46000;
 }
 
 .bg-color--subcolor {
@@ -291,7 +291,7 @@ button {
 }
 
 .section-title--keycolor {
-  background-color: #39b54a;
+  background-color: #B46000;
 }
 
 .section-title--story {
