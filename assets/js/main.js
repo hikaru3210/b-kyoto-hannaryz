@@ -129,4 +129,5 @@ app.component('answer-input', {
   }
 })
 
+app.mount('#stage')
 
