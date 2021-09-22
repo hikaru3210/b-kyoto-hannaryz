@@ -129,4 +129,51 @@ app.component('answer-input', {
   }
 })
 
+
+// 追加
+ stage201AnswerInput(stage201) {
+      if(stage1 === this.stage201CorrectAnswer) {
+        this.stage201Answer = true;　
+        this.stage201Message = this.okMessage;
+      } else {
+        this.stage201Answer = false;
+        this.stage201Message = this.ngMessage;
+      }
+    },
+    stage202AnswerInput(stage202) {
+      if(stage202 === this.stage202CorrectAnswer) {
+        this.stage202Answer = true;
+        this.stage202Message = this.okMessage;
+      } else {
+        this.stage202Answer = false;
+        this.stage202Message = this.ngMessage;
+      }
+    },
+    stage203AnswerInput(stage203) {
+      if(stage203 === this.stage203CorrectAnswer) {
+        this.stage203Answer = true;
+        this.stage203Message = this.okMessage;
+      } else {
+        this.stage203Answer = false;
+        this.stage203Message = this.ngMessage;
+      }
+    },
+    stage204AnswerInput(stage204) {
+      if(stage204 === this.stage204CorrectAnswer) {
+        this.stage204Answer = true;
+        this.stage204Message = this.okMessage;
+      } else {
+        this.stage204Answer = false;
+        this.stage204Message = this.ngMessage;
+      }
+    },
+     stage2のクリア画面の動作を設定します
+    stage2NextStage() {
+      this.stage201Answer = false;
+      this.stage202Answer = false;
+      this.stage203Answer = false;
+      this.stage204Answer = false;
+      this.stage2Clear = true;
+    },
+
 app.mount('#stage')
