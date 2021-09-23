@@ -83,7 +83,7 @@ button {
   width: 287px;
   height: 55px;
   border:2px solid #B46000;
-  border-radius:5%;
+  border-radius:10px;
 }
 
 button:hover{
